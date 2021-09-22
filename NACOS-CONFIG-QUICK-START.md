@@ -9,7 +9,7 @@ Suppose your Nacos Server is startup, you would add [`nacos-config-spring-boot-s
         ...
         
         <dependency>
-            <groupId>com.alibaba.boot</groupId>
+            <groupId>com.alidaodao.web</groupId>
             <artifactId>nacos-config-spring-boot-starter</artifactId>
             <version>${latest.version}</version>
         </dependency>

@@ -17,7 +17,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>nacos-spring-boot-parent</artifactId>
-        <groupId>com.alibaba.boot</groupId>
+        <groupId>com.alidaodao.web</groupId>
         <version>${revision}</version>
         <relativePath>../nacos-spring-boot-parent/pom.xml</relativePath>
     </parent>
@@ -46,7 +46,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.alibaba.boot</groupId>
+            <groupId>com.alidaodao.web</groupId>
             <artifactId>nacos-spring-boot-base</artifactId>
             <optional>true</optional>
         </dependency>
@@ -72,7 +72,7 @@
 
         <!-- Nacos autoconfigure -->
         <dependency>
-            <groupId>com.alibaba.boot</groupId>
+            <groupId>com.alidaodao.web</groupId>
             <artifactId>nacos-discovery-spring-boot-autoconfigure</artifactId>
         </dependency>
 
